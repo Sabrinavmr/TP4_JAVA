@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebe9cdc8-f246-4f8b-9540-764b3a3ea8a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVATP4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj4/Opcion1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj4/Opcion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj4/Opcion3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj4/Opcion4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj4/Opcion5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj4/Opcion6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj5/Opc1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj5/Opc2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj5/Opc3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OpcionesMenuEj5/Opc4.java" afterDir="false" />
+    <list default="true" id="ebe9cdc8-f246-4f8b-9540-764b3a3ea8a7" name="Changes" comment="Arreglado">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.ejemplo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejemplo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Puesto 8.4/Desktop/TP4_JAVA&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,5 +55,9 @@
       <updated>1727055128999</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Arreglado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglado" />
   </component>
 </project>
