@@ -12,9 +12,9 @@ public class Main {
         //Ejercicio1Ejemplo();
         //Ejercicio1(sc);
         //Ejercicio2(sc);
-        //Ejercicio3(sc);
+        Ejercicio3(sc);
         //Ejercicio4(sc);
-        Ejercicio5(sc);
+        //Ejercicio5(sc);
 
     }
 
@@ -184,13 +184,21 @@ public class Main {
 
         //multiplicamos valores del array1 con array2, guardar resultado en array3,
         // mediante bucle for
-        for (int i = 0; i < array1.length; i++) {//filas
-            for (int j = 0; j < array1[0].length; j++) {//columnas
-
-                //guardar el resultado de la multiplicacion en el array3
-                array3[i][j] = array1[i][j] * array2[i][j];
+//        for (int i = 0; i < array1.length; i++) {//filas
+//            for (int j = 0; j < array1[0].length; j++) {//columnas
+//
+//                //guardar el resultado de la multiplicacion en el array3
+//                array3[i][j] = array1[i][j] * array2[i][j];
+//            }
+//
+//        }
+        for (int i = 0; i < array1.length; i++) { // filas de array1
+            for (int j = 0; j < array2[0].length; j++) { // columnas de array2
+                array3[i][j] = 0; // Inicializar el valor en array3
+                for (int k = 0; k < array1[0].length; k++) { // columnas de array1 (o filas de array2)
+                    array3[i][j] += array1[i][k] * array2[k][j]; // Multiplicación y suma
+                }
             }
-
         }
         //--------------------------------------------------------------
         //mostrar arrays por consola
@@ -219,8 +227,8 @@ public class Main {
         //mostrar por consola array 3
         System.out.println("Resultados de multiplicar array1 * array2:");
 
-        for (int i = 0; i < array2.length; i++) {//filas
-            for (int j = 0; j < array2[0].length; j++) {//columnas
+        for (int i = 0; i < array3.length; i++) {//filas
+            for (int j = 0; j < array3[0].length; j++) {//columnas
                 System.out.print(array3[i][j] + " ");
             }
             System.out.println();//salto de linea
@@ -309,7 +317,15 @@ public class Main {
             System.out.println("Columna " + (i + 1) + ": " + array_sumas[i]);
 
         }
+
+        //Sumamos el último arreglo y lo mostramos
+        int total = 0;
+        for (int i = 0; i < array_sumas.length; i++){
+            total += array_sumas[i];
+        }
+        System.out.println("El total es "+ total);
     }
+
 
     public static void Ejercicio4(Scanner sc) {
         /*
